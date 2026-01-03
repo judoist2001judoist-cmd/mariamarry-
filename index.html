@@ -1,23 +1,34 @@
-<!doctype html>
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
 
+  <!-- Обязательно -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Maria Marry">
-  <meta name="twitter:description" content="Tap to open 👇">
+  <meta name="twitter:title" content="4:15">
+  <meta name="twitter:description" content="Click and stay with me">
+  <meta name="twitter:image" content="https://mariamary.vercel.app/preview2.jpg">
 
-  <!-- ВАЖНО: twitter:image указывает на HTML, а не JPG -->
-  <meta name="twitter:image" content="https://maria-marry.vercel.app/img.html">
+  <!-- Open Graph (ОЧЕНЬ ВАЖНО) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="4:15">
+  <meta property="og:description" content="Click and stay with me">
+  <meta property="og:image" content="https://mariamary.vercel.app/preview2.jpg">
+  <meta property="og:url" content="https://mariamary.vercel.app/">
 
-  <!-- OpenGraph (на всякий случай) -->
-  <meta property="og:title" content="Maria Marry">
-  <meta property="og:description" content="Tap to open">
-  <meta property="og:image" content="https://maria-marry.vercel.app/preview3.jpg">
+  <!-- Небольшая задержка, чтобы Twitter успел считать -->
+  <meta http-equiv="refresh" content="1;url=https://getmysocial.com/candykate">
+
+  <script>
+    setTimeout(function () {
+      window.location.replace("https://getmysocial.com/candykate");
+    }, 1000);
+  </script>
+
 </head>
-
 <body>
-  <!-- НИКАКОГО редиректа тут -->
 </body>
 </html>
